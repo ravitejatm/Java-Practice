@@ -1,0 +1,20 @@
+poly :- more then one
+moph:- form
+more then one parm is know as polymorphism.
+is the ability of an object to take on many farms.
+    2 types:
+        1.compiletime polymorphism
+                achived at java compiletime.
+                to achive method overloading
+        while writing mean compile
+
+        same class having same method name and changeing no. of parameters is call method overloading.
+
+
+
+        2. Runtime polymorphism. is atype of polymorphism which can be achieved at
+              java  runtime or excution time.
+              dynamic polymorphism or dynamic method dispatch
+              *  method overriding
+
+              method and all are same(when we dont like any method from interface or call which is extending and want to own implementation.
