@@ -30,7 +30,7 @@ public class Stringss {
         //indexof , lastIndexOf, subString, split, charAt
         System.out.println(s1.indexOf("h"));
         System.out.println(s1.lastIndexOf("h"));
-        System.out.println(s1.indexOf(s1.substring(2));
+        //System.out.println(s1.indexOf(s1.substring(2));
         System.out.println(s1.substring(2,4));
         System.out.println(s1.split(" "));
         System.out.println(s1.charAt(3));

@@ -25,6 +25,12 @@ public class Arrays {
         for(int c =0; c<arr.length; c++) {
             System.out.println(arr[c]);
         }
+// while loop
+        int d = 0;
+        while (d < arr.length) {
+            System.out.println(j[d]);
+            d++;
+        }
 
         //for each  //increment order only
         for(int b:arr) {
@@ -35,4 +41,11 @@ public class Arrays {
         //arrayindexoutofboundsException
 
     }
+
+    //int[] j = new int[] {1,2,3,4,5};
+    //int[] j = {1,2,3,4,5};
+    //int j[] = new int[5] //size
+    //int[] j = new int[5] size initalization
+    //int j[]; j = new int[10] size
+
 }

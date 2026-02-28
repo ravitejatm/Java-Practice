@@ -1,0 +1,58 @@
+Collection is a framework by java
+
+this framework provides many interfaces and theit implemented classes in order to store group of objects in a single entity.
+
+collections framework
+    |
+
+Iterable<interface>
+
+    collection<interfaces>
+               1.List -->interface
+                    ArrayList
+                    LinkedList -->classes
+                    Vector
+                    Stack
+               2.set
+                    HashSet
+                    LinkedHashSet
+                    TreeSet
+               3.queue
+                    ArrayQueue
+                    PriorityQueue
+    Map<interfaces>
+                HashTable
+                HashMap   ---->classes
+                LinkedHashMap
+                TreeMap
+
+    collections is also a class
+
+    * to overcome the disadventages in arrays collection came
+VECTOR:
+    default capacity: 10
+    initial capacity: 10  100%
+    Allow duplicate value:YES
+    Allow Null value: YES
+    Does it maintain insertion order: YES
+    Does it maintain Sorted order: NO
+    Does it offer the randam access of element:YES (you can access element from any possition)
+    Is it Synchronised:YES
+            one after another thread.
+    what is it good at: multi thrading, data increasing exponsientilly.
+    legacy class.
+
+ArrayList:
+    default capacity: 0
+    initial capacity: 10   50%
+    Allow duplicate value:YES
+    Allow Null value: YES
+    Does it maintain insertion order: YES
+    Does it maintain Sorted order: NO
+    Does it offer the randam access of element:YES (you can access element from any possition)
+    Is it Synchronised:NO
+            multipule thteads at a time.
+            if you want synchronized you can add expectly
+            Collections.synchronizedList(a1);
+    what is it good at: data storing and retriving(based on index) is good.
+
