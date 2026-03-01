@@ -1,0 +1,13 @@
+*Prime numbers: 2,3,5,7,11,13,17,23,29
+the numbers divisible by itself and 1
+
+An odd number is any integer that cannot be divided evenly by 2. When you divide an odd number by 2, there is always a remainder of 1.
+*odd numbers: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19..
+
+
+An even number is any integer that can be divided by 2 without leaving a remainder
+*even numbers: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20...
+
+Natural Numbers: 1, 2, 3, 4...
+Whole Numbers: 0, 1, 2, 3, 4...
+

@@ -54,7 +54,7 @@ public class Vectorr {
      System.out.println(v.contains("a")); //true or false
      System.out.println(v.contains("b"));
      System.out.println(v.contains("c"));
-     System.out.println(v.containsAll(v2);
+    // System.out.println(v.containsAll(v2);
      System.out.println(v.indexOf("c"));
      System.out.println(v.lastIndexOf("f"));
      System.out.println(v.firstElement());
