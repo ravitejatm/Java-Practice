@@ -70,7 +70,7 @@ STACK:|| Down to top
         what is it good at: LIFO last in first out sinero.(undu readu, back and forward, recuression, brackets)
 
 
-LinkedList:    dounle linkedlist in java
+LinkedList:    double linkedlist in java
      default capacity: 0
             initial capacity: 0
             Allow duplicate value:YES
@@ -82,3 +82,15 @@ LinkedList:    dounle linkedlist in java
             what is it good at: element maniplucationg in middle linked list is good
 
 
+Map: is a interface provided by collections framework
+    based on reference we get value.
+    we send key as reference, then we get value of it.
+        MAP<interface>
+            Hashmap<class>
+            HashTable<class>
+            TreeMap<class> implements NavigableMap , SortedMap
+             map.put(505505, "hydrabad"); // key and value
+             Keyset---->to get keys
+             values---->to get values
+             entryset--->to get both
+             *map also call directly(System.out.println(map);)

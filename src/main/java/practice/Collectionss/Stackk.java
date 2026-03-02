@@ -33,7 +33,7 @@ public class Stackk {
         System.out.println(st.pop());
 
         //SEARCH( it search from top amd return its position)
-        System.out.println(st.search("orange");
+        System.out.println(st.search("orange"));
 
         //EMPTY (ISEMPTY) Checks it size
 

@@ -30,7 +30,7 @@ public class Linkedlistt {
 
         list2.set(1,"orange"); //update
 
-        list2.add(list3);
+      //  list2.add(list3);
         //list2.add(, list3);
         //list2.removeall()
         list2.remove("orange");  //delete
