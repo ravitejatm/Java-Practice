@@ -29,7 +29,7 @@ Iterable<interface>
     collections is also a class
 
     * to overcome the disadventages in arrays collection came
-VECTOR:
+VECTOR: |=====| left to right
     default capacity: 10
     initial capacity: 10  100%
     Allow duplicate value:YES
@@ -40,7 +40,8 @@ VECTOR:
     Is it Synchronised:YES
             one after another thread.
     what is it good at: multi thrading, data increasing exponsientilly.
-    legacy class.
+            legacy class.
+
 
 ArrayList:
     default capacity: 0
@@ -55,4 +56,29 @@ ArrayList:
             if you want synchronized you can add expectly
             Collections.synchronizedList(a1);
     what is it good at: data storing and retriving(based on index) is good.
+
+STACK:|| Down to top
+     default capacity: 10
+        initial capacity: 10  100%
+        Allow duplicate value:YES
+        Allow Null value: YES
+        Does it maintain insertion order: YES
+        Does it maintain Sorted order: NO
+       Does it offer the randam access of element:YES (but we should not use becouse having special methods only need to use(PUSH,POP,PEEK,SEARCH)
+        Is it Synchronised:YES
+                one after another thread.
+        what is it good at: LIFO last in first out sinero.(undu readu, back and forward, recuression, brackets)
+
+
+LinkedList:    dounle linkedlist in java
+     default capacity: 0
+            initial capacity: 0
+            Allow duplicate value:YES
+            Allow Null value: YES
+            Does it maintain insertion order: YES
+            Does it maintain Sorted order: NO
+            Does it offer the randam access of element:YES
+            Is it Synchronised:NO
+            what is it good at: element maniplucationg in middle linked list is good
+
 

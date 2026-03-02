@@ -1,0 +1,16 @@
+i am ravi
+txt file
+different ways to read text file
+    1.FileInputStream
+    2.Scanner
+    3.FileReader
+    4.BufferReader
+
+*FileInputStream and FileReader are same
+
+Different ways to write the data into text file.
+    1.FileOutputStream
+    2.FileWriter
+    3.BufferedWriter
+
+*FileOutputStream and FileWriter are same
