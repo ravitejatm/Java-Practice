@@ -18,7 +18,7 @@ Iterable<interface>
                     LinkedHashSet
                     TreeSet
                3.queue
-                    ArrayQueue
+                    ArrayQueue, ArrayDeque
                     PriorityQueue
     Map<interfaces>
                 HashTable
@@ -94,3 +94,30 @@ Map: is a interface provided by collections framework
              values---->to get values
              entryset--->to get both
              *map also call directly(System.out.println(map);)
+
+Queue:-
+    First In First Out : FIFO
+    *priorityqueue implements queue
+    *arraydeque and linkedlist implements deque,
+    *duque extends queue
+    Priorityqueue: head:-0(integer always lowest value in first)
+                   tail: -11
+                   peel:- to get head value
+                   poll:- remove head value
+                   internally uses array.
+                    default capacity: 11
+                    initial capacity: 11
+                    Allow duplicate value:YES
+                    Allow Null value: NO
+                    Does it maintain insertion order: NO(no but gives highest priority for lowest value in first)
+                    Does it maintain Sorted order: NO
+                    Does it offer the randam access of element:NO
+                    Is it Synchronised:NO
+                    Good at: priority based on  FIFO
+
+ArrayDueqe:
+    initially capacity :17
+    head---tail
+    adding and removing can done from head and tail
+Linkedlist also same as arrayDeque
+
