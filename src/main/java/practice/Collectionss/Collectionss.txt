@@ -119,5 +119,63 @@ ArrayDueqe:
     initially capacity :17
     head---tail
     adding and removing can done from head and tail
-Linkedlist also same as arrayDeque
+    Linkedlist also same as arrayDeque
 
+
+
+SET: mutliple elements ni store chesukovadniki.
+    its a data structure
+    its checks before adding elements.
+    set is a data- structure which only store unique element data.
+
+         SET:<interface>
+            HashSet<class> extends LinkedHashSet
+            SortedSet<interface> extends NavigableSet<interface> treeSet< class>
+
+    HashSet:
+        default capacity: 0
+        initial capacity: 16
+        Allow duplicate value: NO
+        Allow Null value: YES
+        Does it maintain insertion order: NO
+        Does it maintain Sorted order: NO
+        doest allow insertion order(hashmap --> hashcode
+        Is it Synchronised:NO
+
+    LinkedHashSet:
+        default capacity: 16
+        initial capacity: 16
+        Allow duplicate value: NO
+        Allow Null value: YES
+        Does it maintain insertion order: YES
+        Does it maintain Sorted order: NO
+        Is it Synchronised:NO
+        LinkedHashSet internally uses LinkedHashMap
+
+    TreeSet:
+        default capacity: 0
+        initial capacity: 0
+         Allow duplicate value: NO
+         Allow Null value: NO
+         Does it maintain insertion order: NO
+         Does it maintain Sorted order: NO
+         Is it Synchronised:NO
+        TreeSet----> internally implements TreeMap----->binary tree
+        assending order
+        addition operations:-
+                ts.first(); lowest element
+                ts.last(); highest element
+                ts.pollFirst(); remove first element
+                ts.pollLastElement() remove last element
+
+
+
+important points:
+HashSet: internally it uses hashmap--->hashmap internally uses -->array of nodes(key, value)
+arraylist: internally it uses arrays
+linkedlist: internally it uses nodes
+hash: data ki hasing ani apply ayyi, based on hashcode key apply changes on index
+
+LinkedHashSet ----> internally uses linkedHashMap---> link of nodes(key, values)
+
+TreeSet----> internally implements TreeMap----->binary tree
