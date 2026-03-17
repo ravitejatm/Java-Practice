@@ -1,6 +1,8 @@
 package practice.Collectionss;
 
 import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Iterator;
 import java.util.Vector;
 
 
@@ -31,6 +33,23 @@ public class Vectorr {
         v2.add("d");
         v2.add("e");
         v2.add(null);
+
+//          enumeration
+//        Enumeration<String> e1 = v.elements();
+//        while (e1.hasMoreElements()) {
+//           // String s = e1.nextElement();
+//            System.out.println(e1.nextElement());
+//
+//        }
+
+        //iterator
+
+//        Iterator<String> it = v2.iterator();
+//        while (it.hasNext()) {
+        //it.next();
+//            //String s = it.next();
+//            System.out.println(it.next());
+//        }
 
 
         System.out.println(v2);

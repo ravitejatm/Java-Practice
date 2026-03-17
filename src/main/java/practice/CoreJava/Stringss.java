@@ -1,4 +1,4 @@
-package practice;
+package practice.CoreJava;
 
 
 // to store text all. is a seuecnce of characters and it is a class in java

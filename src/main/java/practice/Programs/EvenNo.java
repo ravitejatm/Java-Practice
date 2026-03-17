@@ -1,4 +1,4 @@
-package org.example.Programs;
+package practice.Programs;
 
 
 // divided by 2 is a even number 2,4,,6,,8,.....

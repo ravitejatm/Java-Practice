@@ -1,4 +1,4 @@
-package org.example.Programs;
+package practice.Programs;
 
 
 //Prime numbers: 2,3,5,7,11,13,17,23,29

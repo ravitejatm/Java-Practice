@@ -1,4 +1,4 @@
-package org.example.Programs;
+package practice.Programs;
 
 
 // which is not divided by 2 is odd

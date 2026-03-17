@@ -102,7 +102,7 @@ Queue:-
     *duque extends queue
     Priorityqueue: head:-0(integer always lowest value in first)
                    tail: -11
-                   peel:- to get head value
+                   peek:- to get head value
                    poll:- remove head value
                    internally uses array.
                     default capacity: 11

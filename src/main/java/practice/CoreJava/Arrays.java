@@ -1,4 +1,4 @@
-package practice;
+package practice.CoreJava;
 
 
 //what is array?
@@ -32,7 +32,7 @@ public class Arrays {
             d++;
         }
 
-        //for each  //increment order only
+ //for each  //increment order only
         for(int b:arr) {
             System.out.println(b);
         }

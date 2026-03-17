@@ -3,6 +3,7 @@ package practice.Collectionss;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Enumeration;
 
 public class ArrayListt {
     public static void main(String[] args) {
@@ -37,4 +38,5 @@ public class ArrayListt {
       //  Collections.synchronizedList(al2);
 
     }
+
 }
